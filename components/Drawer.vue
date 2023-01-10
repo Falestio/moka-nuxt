@@ -91,7 +91,7 @@
                     </div>
 
                     <div class="flex">
-                        <NuxtLink to="/dashboard/transaksi/tambah" class="btn add--desktop">Tambah Transaksi</NuxtLink>
+                        <NuxtLink to="/dashboard/transaksi/tambah" class="btn-add--desktop">Tambah Transaksi</NuxtLink>
                         <NuxtLink class="btn add--mobile">+</NuxtLink>
                         <div class="nav__account">
                             <div class="nav__account--icon--wrapper">
