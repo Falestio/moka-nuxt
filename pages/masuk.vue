@@ -3,7 +3,7 @@
         <div class="container">
             <div class="login-left">
                 <div class="login-header">
-                    <h3>Log in to your account</h3>
+                    <h3>Masuk</h3>
                 </div>
                 <form class="login-form">
                     <div class="login-form-content">
@@ -12,16 +12,16 @@
                             <input class="input" type="text" id="email" />
                         </div>
                         <div class="form-item">
-                            <label for="password">Password</label>
+                            <label for="password">Kata Sandi</label>
                             <input class="input" type="password" id="password" />
                         </div>
                         <div class="form-item">
                             <div class="checkbox">
                                 <input type="checkbox" id="rememberMeCheckbox" />
-                                <label for="rememberMeCheckbox" id="checkboxLabel">Remember Me</label>
+                                <label for="rememberMeCheckbox" id="checkboxLabel">Ingat saya</label>
                             </div>
                         </div>
-                        <NuxtLink to="/dashboard" class="btn">Login</NuxtLink>
+                        <NuxtLink to="/dashboard" class="btn">Masuk</NuxtLink>
                     </div>
                 </form>
                 <div class="login-form-footer">
@@ -30,8 +30,8 @@
                         <button class="btn">Facebook</button>
                 </div>
                 <div class="info">
-                    <a href="#">lupa Password?</a>
-                    Dont have an account? <NuxtLink to="/daftar">Daftar</NuxtLink>
+                    <a href="#">lupa Kata Sandi?</a>
+                    Belum punya akun? <NuxtLink to="/daftar">Daftar</NuxtLink>
                 </div>
             </div>
             <div class="login-right">
@@ -42,7 +42,7 @@
                             Kondisi keuangan yang sehat adalah salah satu resolusi yang diinginkan generasi milenial di 2022. Manajer Hubungan Masyarakat Qoala, Ricky Alexander
                             Samosir, mengatakan kondisi keuangan yang sehat bisa menjadi salah satu penentu keuangan di masa depan.
                         </p>
-                        <p>Chech out whats new -></p>
+                        <p>Check out whats new -></p>
                     </form>
                 </div>
             </div>

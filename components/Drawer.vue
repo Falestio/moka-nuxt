@@ -336,6 +336,8 @@
     display: none;
 }
 
+
+
 @media only screen and (max-width:770px){
     .aside {
         display: none;
