@@ -336,6 +336,10 @@
     display: none;
 }
 
+.add--mobile, .add--desktop {
+    line-height: 2rem;
+}
+
 @media only screen and (max-width:770px){
     .aside {
         display: none;
