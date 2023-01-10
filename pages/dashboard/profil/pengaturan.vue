@@ -97,4 +97,10 @@
     line-height: 29px;
     margin-right: 60px;
 }
+
+/* @media only screen and (max-width: 450px) {
+    .baris-content {
+        font-size: 15px;
+    }
+} */
 </style>
