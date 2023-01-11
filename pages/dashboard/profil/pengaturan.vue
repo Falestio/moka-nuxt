@@ -97,4 +97,41 @@
     line-height: 29px;
     margin-right: 60px;
 }
+
+@media screen and (max-width: 750px) {
+    .tittle{
+    font-size: 35px;
+    margin-left: 10px;
+   }
+   .sub-tittle{
+    font-size:22px;
+    margin-left: 10px;
+   }
+   .baris-content a{
+    font-size: 18px;
+    margin-left: 30px;
+   }
+   .content-kanan a{
+    font-size: 18px;
+    margin-right: 35px;
+   }
+}
+@media screen and (max-width: 480px) {
+    .tittle{
+    font-size: 25px;
+    margin-left: 0px;
+   }
+   .sub-tittle{
+    font-size:18px;
+    margin-left: 0px;
+   }
+   .baris-content a{
+    font-size: 13px;
+    margin-left: 20px;
+   }
+   .content-kanan a{
+    font-size: 13px;
+    margin-right: 35px;
+   }
+}
 </style>

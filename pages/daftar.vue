@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-green">
         <div class="signup-header">
             <b> MOKA</b>
         </div>
@@ -22,10 +22,10 @@
                         <input class="input" type="text" placeholder="username" />
                         <label for="">Email*</label>
                         <input class="input" type="text" placeholder="moka@gmail.com" />
-                        <label for="">Password*</label>
-                        <input class="input" type="password" placeholder="Password" />
-                        <label for="">Repeat Password</label>
-                        <input class="input" type="password" placeholder="Repeat Password" name="psw-repeat" required />
+                        <label for="">Kata Sandi*</label>
+                        <input class="input" type="password" placeholder="Kata Sandi" />
+                        <label for="">Ulangi Kata Sandi</label>
+                        <input class="input" type="password" placeholder="Ulangi kata sandi" name="psw-repeat" required />
 
                         <div class="regis">
                             <center>
@@ -41,7 +41,7 @@
                             <a href="facebook.com"> <img src="@/assets/img/fb.png" alt="facebook    " />Facebook </a>
                         </div>
                     </form>
-                    <div class="info">Already have an account? <NuxtLink to="/masuk">Login</NuxtLink></div>
+                    <div class="info">Sudah punya akun?`` <NuxtLink to="/masuk">Login</NuxtLink></div>
                 </div>
             </div>
         </div>
@@ -57,6 +57,9 @@
 
 }
 
+.bg-green {
+    background: var(--color-primary);
+}
 .container {
     width: 100%;
     display: flex;

@@ -328,18 +328,93 @@
         font-size: 20px;
     }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 750px) {
+    .top-content ul{   
+    }
     .isi-trans1 {
-        font-size: 15px;
+        font-size: 18px;
     }
     .isi-trans2-1 {
+        font-size: 25px;
+    }
+    .isi-trans2 {
+        font-size: 25px;
+    }
+    .isi-trans3 {
+        font-size: 15px;
+    }
+    .isi-trans3-1{
+        font-size: 15px;
+    }
+    .terakhir{
+        font-size: 15px;
+    }
+    #subjudul-a{
+        font-size: 25px;
+
+    }
+    #isi{
         font-size: 20px;
     }
-    .isi-trans2-2 {
-        font-size: 25px;
+    #tolbul{
+        font-size: 20px;
+        margin-right: -60px;
+        
     }
-    .isi-trans2-3 {
-        font-size: 25px;
+    #isi-detail{
+        font-size: 15px;
+
     }
+    #tolbul-detail{
+        font-size: 15px;
+        margin-right: -60px;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .top-content ul{   
+    }
+    .btn-ghost{
+        font-size: 10px;   
+    }
+    .isi-trans1 {
+        font-size: 12px;
+    }
+    .isi-trans2-1 {
+        font-size: 18px;
+    }
+    .isi-trans2 {
+        font-size: 18px;
+    }
+    .isi-trans3 {
+        font-size: 12px;
+    }
+    .isi-trans3-1{
+        font-size: 12px;
+    }
+    .terakhir{
+        font-size: 15px;
+    }
+    #subjudul-a{
+        font-size: 25px;
+
+    }
+    #isi{
+        font-size: 15px;
+    }
+    #tolbul{
+        font-size: 15px;
+        margin-right: -60px;
+        
+    }
+    #isi-detail{
+        font-size: 12px;
+
+    }
+    #tolbul-detail{
+        font-size: 12px;
+        margin-right: -60px;
+    }
+    
 }
 </style>
